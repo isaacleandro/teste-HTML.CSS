@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: flex;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:'roboto',sans-serif;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+.logo{
+    height: 80px;
+    margin-right: 2rem;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu p{
+    margin-right: 2rem;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+
+}
+.login p{
+    margin-right: 2rem;
+}
+.login button{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: #b8b3b3;
+}
+.header .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.container .left h1{
+    font-size: 3.4rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.container .left p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 1.2rem;
+}
+.container .left .brands{
+    width: 32rem;
+}
+.buttontwo{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.container .buttontwo .left{
+    padding: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.container .buttontwo .right{
+    font-size: 20px;
+    padding: 30px;
+    border: 0;
+    background-color: transparent;  
+}
+.lowbutton{
+    color: #b8b3b3;
+}
+.right .imgright{
+    width: 42rem;
+}
